@@ -1,0 +1,386 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <title>奇点</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/stars.css">
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  <script src="./js/echarts.min.js"></script>
+  <script src="./js/i18n.js"></script>
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <div class="navBar">
+    <div class="inner">
+      <img src="./images/logo.png" alt="">
+      <div class="btnGroup">
+        <div class="dynamic-border">
+          <a id="index"></a>
+        </div>
+        <div class="dynamic-border">
+          <a id="about"></a>
+        </div>
+        <div class="dynamic-border">
+          <a id="token"></a>
+        </div>
+        <div class="dynamic-border">
+          <a id="application"></a>
+        </div>
+        <div class="dynamic-border">
+          <a id="group"></a>
+        </div>
+        <div class="dynamic-border">
+          <a id="cooperative"></a>
+        </div>
+        <div class="dynamic-border">
+          <a id="language"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- index -->
+  <div class="container" style="margin-bottom: -55px;">
+    <img src="./images/sun/img2.jpg" alt="" id="bgImg1">
+    <div class="part">
+      <div class="section">
+        <div class="section-main galaxy">
+          <img src="./images/sun/41.png" alt="">
+          <div class="tags">
+            <div id="tag1">SINGULARITY</div>
+            <div id="tag2">基于分布式技术</div>
+            <div id="tag3">Based on distributed<br>technology</div>
+            <div id="tag4">
+              <div class="tag-left">
+                <div class="tag-top">高性能云服务系统</div>
+                <div class="tag-bottom">High-performance cloud service system</div>
+              </div>
+              <img src="" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="stars"></div>
+    <div id="stars2"></div>
+    <div id="stars3"></div>
+  </div>
+
+  <div class="container">
+    <img src="./images/img3.jpg" alt="" id="img3">
+    <div class="part">
+      <!-- 什么是 -->
+      <div class="section">
+        <div class="section-title">
+          <div class="rect">
+            <div class="rect-inner" id="section1"></div>
+          </div>
+        </div>
+        <div class="section-main intro">
+          <span class="intro-name">SINGULARITY</span>
+          <span id="content1"></span>
+        </div>
+      </div>
+  
+      <!-- 架构 -->
+      <div class="section">
+        <div class="section-main">
+          <div class="frame">
+            <div class="frame-left">
+              <div class="circle-wrapper">
+                <div class="circle">
+                  <div class="circle-top" id="s1_title4"></div>
+                  <div class="circle-bottom" id="s1_desc4"></div>
+                </div>
+                <img src="./images/32.png" alt="">
+              </div>
+            </div>
+            <div class="frame-right">
+              <div class="frame-row">
+                <div class="frame-title" id="s1_title1"></div>
+                <div class="frame-content" id="s1_desc1"></div>
+              </div>
+              <div class="frame-row">
+                <div class="frame-title" id="s1_title2"></div>
+                <div class="frame-content" id="s1_desc2"></div>
+              </div>
+              <div class="frame-row">
+                <div class="frame-title" id="s1_title3"></div>
+                <div class="frame-content" id="s1_desc3"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- table -->
+      <div class="section table">
+        <div class="table-title">SINGULARITY</div>
+        <div class="table-outer">
+          <div class="table-box left">
+            <div class="box-top">DATA TRANSACTION<br>SERVICE</div>
+            <div class="box-list">
+              <div class="box-sub left">
+                <div class="box-sub-title">Registration<br>verification</div>
+                <ul>
+                  <li>User<br>Management</li>
+                  <li>Authorization<br>management</li>
+                  <li>Business<br>management</li>
+                  <li>Verification<br>Service</li>
+                </ul>
+              </div>
+              <div class="box-sub middle">
+                <div class="box-sub-title">Transaction<br>service</div>
+                <ul>
+                  <li>Transaction<br>release</li>
+                  <li>Transaction<br>inquiry</li>
+                  <li>Transaction<br>settlement</li>
+                  <li>Transaction<br>appeal</li>
+                </ul>
+              </div>
+              <div class="box-sub right">
+                <div class="box-sub-title">Basic<br>services</div>
+                <ul>
+                  <li>Contract<br>promotion</li>
+                  <li>CNC<br>monitoring</li>
+                  <li>Data<br>Integration</li>
+                  <li>BI</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="table-box middle">
+            <div class="box-top">MET<br>ADATA</div>
+            <ul>
+              <li>Enterprise<br>data</li>
+              <li>Transaction<br>Record</li>
+              <li>User system</li>
+              <li>User data</li>
+            </ul>
+          </div>
+          <div class="table-box right">
+            <div class="box-top">PLATFROM<br>AGREEMENT</div>
+            <ul>
+              <li>Enterprise registration</li>
+              <li>User authentication</li>
+              <li>Data synchronization</li>
+              <li>Data storage</li>
+              <li>Data Confirmation</li>
+              <li>Data Exchange</li>
+              <li>Data encryption</li>
+              <li>Data traceability</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 优势 -->
+  <div class="container" style="overflow: hidden;">
+    <img src="./images/bg2.png" alt="" id="bgImg2">
+    <img src="./images/bg2-1.png" alt="" id="bgImg2-1">
+    <div class="part" style="width: 100%;">
+      <div class="section">
+        <div class="section-title" style="margin: 60px 0;">
+          <div class="rect">
+            <div class="rect-inner" id="section2"></div>
+          </div>
+        </div>
+        <div class="section-main">
+          <div class="adv-row">
+            <div class="label">
+              <div class="label-text" id="s2_title1"></div>
+              <div class="label-line"></div>
+            </div>
+            <div class="adv-content" id="s2_desc1"></div>
+          </div>
+        </div>
+        <div class="section-main">
+          <div class="adv-row">
+            <div class="label">
+              <div class="label-text" id="s2_title2"></div>
+              <div class="label-line"></div>
+            </div>
+            <div class="adv-content" id="s2_desc2"></div>
+          </div>
+        </div>
+        <div class="section-main">
+          <div class="adv-row">
+            <div class="label">
+              <div class="label-text" id="s2_title3"></div>
+              <div class="label-line"></div>
+            </div>
+            <div class="adv-content" id="s2_desc3"></div>
+          </div>
+        </div>
+        <div class="section-main">
+          <div class="adv-row">
+            <div class="label">
+              <div class="label-text" id="s2_title4"></div>
+              <div class="label-line"></div>
+            </div>
+            <div class="adv-content" id="s2_desc4"></div>
+          </div>
+        </div>
+        <div class="section-main">
+          <div class="adv-row">
+            <div class="label">
+              <div class="label-text" id="s2_title5"></div>
+              <div class="label-line"></div>
+            </div>
+            <div class="adv-content" id="s2_desc5"></div>
+          </div>
+        </div>
+        <div class="section-main">
+          <div class="adv-row">
+            <div class="label">
+              <div class="label-text" id="s2_title6"></div>
+              <div class="label-line"></div>
+            </div>
+            <div class="adv-content" id="s2_desc6"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="part">
+    <!-- 通证 -->
+    <div class="section">
+      <div class="section-title">
+        <div class="rect">
+          <div class="rect-inner" id="section3"></div>
+        </div>
+      </div>
+      <div class="section-main">
+        <div id="chart" style="width: 100%;height:550px;margin-top: 80px;"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 应用 -->
+  <div class="container">
+    <div class="section">
+      <div class="section-title">
+        <div class="rect">
+          <div class="rect-inner" id="section4"></div>
+        </div>
+      </div>
+    </div>
+    <img src="./images/bg3.png" alt="" id="bg3">
+  </div>
+
+  <!-- 团队 -->
+  <div class="container">
+    <img src="./images/bg4.png" alt="" id="bgImg4">
+    <div id="bgImg4warpper">
+      <img src="./images/bg4-1.png" alt="" id="bgImg4-1">
+    </div>
+    <div class="part" style="width: 100vw;">
+      <div class="section">
+        <div class="section-title">
+          <div class="rect">
+            <div class="rect-inner" id="section5"></div>
+          </div>
+        </div>
+        <div class="section-main">
+          <div class="headv-row">
+            <div class="head-box">
+              <img src="./images/head/1.png" alt="">
+              <span class="user-position">Mino CEO</span>
+              <span class="user-name">Emmanuel</span>
+            </div>
+            <div class="head-box">
+              <img src="./images/head/2.png" alt="">
+              <span class="user-position">BlockChain Engineer</span>
+              <span class="user-name">Joel Walther</span>
+            </div>
+            <div class="head-box">
+              <img src="./images/head/3.png" alt="">
+              <span class="user-position">BlockChain Engineer</span>
+              <span class="user-name">Lan Bal</span>
+            </div>
+            <div class="head-box">
+              <img src="./images/head/4.png" alt="">
+              <span class="user-position">Technical Engineer</span>
+              <span class="user-name">Lee Dunn</span>
+            </div>
+          </div>
+          <div class="headv-row">
+            <div class="head-box">
+              <img src="./images/head/5.png" alt="">
+              <span class="user-position">BlockChain Engineer</span>
+              <span class="user-name">David Gliot</span>
+            </div>
+            <div class="head-box">
+              <img src="./images/head/6.png" alt="">
+              <span class="user-position">CLO</span>
+              <span class="user-name">Adam Knuckey</span>
+            </div>
+            <div class="head-box">
+              <img src="./images/head/7.png" alt="">
+              <span class="user-position">CFO</span>
+              <span class="user-name">Phil Wichman</span>
+            </div>
+            <div class="head-box">
+              <img src="./images/head/8.png" alt="">
+              <span class="user-position">CMO</span>
+              <span class="user-name">Yana Mar</span>
+            </div>
+          </div>
+          <div class="headv-row">
+            <div class="head-box">
+              <img src="./images/head/9.png" alt="">
+              <span class="user-position">COO</span>
+              <span class="user-name">Zachary Caplan</span>
+            </div>
+            <div class="head-box">
+              <img src="./images/head/10.png" alt="">
+              <span class="user-position">Technical Engineer</span>
+              <span class="user-name">Josef Mckeon</span>
+            </div>
+            <div class="head-box">
+              <img src="./images/head/11.png" alt="">
+              <span class="user-position">CTO</span>
+              <span class="user-name">Marc Bencko</span>
+            </div>
+            <div class="head-box">
+              <img src="./images/head/12.png" alt="">
+              <span class="user-position">Technical Engineer</span>
+              <span class="user-name">Derek Keough</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="part">
+    <!-- 合作 -->
+    <div class="section" style="padding: 80px 0;">
+      <div class="section-title">
+        <div class="rect">
+          <div class="rect-inner" id="section6"></div>
+        </div>
+      </div>
+      <div class="section-main">
+        <div class="co-row">
+          <img src="./images/co1.png" alt="">
+          <div class="content" id="s6_content1"></div>
+        </div>
+        <div class="co-row">
+          <div class="content" id="s6_content2"></div>
+          <img src="./images/co2.png" alt="">
+        </div>
+        <div class="co-row">
+          <img src="./images/co3.png" alt="">
+          <div class="content" id="s6_content3"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
